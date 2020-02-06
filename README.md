@@ -1,5 +1,5 @@
 # hort_project
-Hort landing page
+"Hort" landing page
 
 Vue, webpack, sass, babel
 
