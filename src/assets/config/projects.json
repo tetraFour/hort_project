@@ -1,0 +1,137 @@
+[
+  {
+    "id": "startups",
+    "projects": [
+      {
+        "name": "Foodie - A Food App UI Kit",
+        "imgSrc": "/assets/images/foody.png",
+        "kit": "UI Kits"
+      },
+      {
+        "name": "Directory App UI Kit",
+        "imgSrc": "/assets/images/directory.png",
+        "kit": "UI Kit"
+      },
+      {
+        "name": "Atluma - Presentation for pitching",
+        "imgSrc": "/assets/images/ailuma.png",
+        "kit": "Mobile Kit"
+      },
+      {
+        "name": "Worksheet for daily tasks",
+        "imgSrc": "/assets/images/ecommerce.png",
+        "kit": "Mobile"
+      },
+      {
+        "name": "A Perfect Pitch Deck Proposal",
+        "imgSrc": "/assets/images/field.png",
+        "kit": "UI Kit"
+      },
+      {
+        "name": "Product Discovery Phase ",
+        "imgSrc": "/assets/images/bluewave.png",
+        "kit": "Ui Kits, Websites"
+      },
+      {
+        "name": "Atluma - Presentation for pitching",
+        "imgSrc": "/assets/images/mobile-app.png",
+        "kit": "Mobile"
+      },
+      {
+        "name": "Worksheet for daily tasks",
+        "imgSrc": "/assets/images/john-doe.png",
+        "kit": "Mobile"
+      }
+    ]
+  },
+  {
+    "id": "designers",
+    "projects": [
+      {
+        "name": "A Perfect Pitch Deck Proposal",
+        "imgSrc": "/assets/images/music-app.png",
+        "kit": "UI Kit"
+      },
+      {
+        "name": "Product Discovery Phase",
+        "imgSrc": "/assets/images/messian.png",
+        "kit": "Ui Kits, Websites"
+      },
+      {
+        "name": "Atluma - Presentation for pitching",
+        "imgSrc": "/assets/images/artist.png",
+        "kit": "Mobile"
+      },
+      {
+        "name": "Worksheet for daily tasks",
+        "imgSrc": "/assets/images/akkurat.png",
+        "kit": "Mobile"
+      },
+      {
+        "name": "A Perfect Pitch Deck Proposal",
+        "imgSrc": "/assets/images/offpaper.png",
+        "kit": "UI Kit"
+      },
+      {
+        "name": "Product Discovery Phase",
+        "imgSrc": "/assets/images/digital-startup.png",
+        "kit": "Ui Kits, Websites"
+      },
+      {
+        "name": "Atluma - Presentation for pitching",
+        "imgSrc": "/assets/images/mobile-app.png",
+        "kit": "Mobile"
+      },
+      {
+        "name": "Worksheet for daily tasks",
+        "imgSrc": "/assets/images/lightout.png",
+        "kit": "Mobile"
+      }
+    ]
+  },
+  {
+    "id": "developers",
+    "projects": [
+      {
+        "name": "A Perfect Pitch Deck Proposal",
+        "imgSrc": "/assets/images/pitch.png",
+        "kit": "UI Kit"
+      },
+      {
+        "name": "Product Discovery Phase ",
+        "imgSrc": "/assets/images/bluewave.png",
+        "kit": "Ui Kits, Websites"
+      },
+      {
+        "name": "Atluma - Presentation for pitching",
+        "imgSrc": "/assets/images/ailuma.png",
+        "kit": "Mobile Kit"
+      },
+      {
+        "name": "Worksheet for daily tasks",
+        "imgSrc": "/assets/images/nota.png",
+        "kit": "Mobile"
+      },
+      {
+        "name": "Directory App UI Kit",
+        "imgSrc": "/assets/images/directory.png",
+        "kit": "UI Kit"
+      },
+      {
+        "name": "Atluma - Presentation for pitching",
+        "imgSrc": "/assets/images/ailuma.png",
+        "kit": "Mobile Kit"
+      },
+      {
+        "name": "Worksheet for daily tasks",
+        "imgSrc": "/assets/images/ecommerce.png",
+        "kit": "Mobile"
+      },
+      {
+        "name": "Atluma - Presentation for pitching",
+        "imgSrc": "/assets/images/artist.png",
+        "kit": "Mobile"
+      }
+    ]
+  }
+]

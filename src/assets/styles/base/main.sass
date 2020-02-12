@@ -7,6 +7,50 @@
 
 body, html
     background-color: $bg
+
 h1
     font-size: 80px
     line-height: 96px
+    position: relative
+    margin-bottom: $base-indent * 8 / 3
+
+    &::before
+        content: ""
+        width: 80px
+        height: 4px
+        position: absolute
+        border-radius: 2px
+        background-color: $salat
+        bottom: -60px
+        left: 0
+
+    + p
+        +ffam("inter-ui-regular")
+
+        font-size: 20px
+        color: $paragraph-color
+        margin-bottom: $base-indent * 6.2 / 3
+
+.container
+    width: $device-width-full
+    margin: 0 auto
+
+    @media screen and (max-width: $device-width-full)
+        width: $device-width-large
+
+    @media screen and (max-width: $device-width-large)
+        width: $device-width-medium
+
+    @media screen and (max-width: $device-width-medium)
+        width: $device-width-small
+
+    @media screen and (max-width: $device-width-small)
+        width: 100%
+        padding: 0 20px
+
+ul, ol
+    li
+        list-style: none
+
+a
+    text-decoration: none

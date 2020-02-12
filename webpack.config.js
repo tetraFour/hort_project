@@ -66,6 +66,10 @@ module.exports = {
       {
         from: "./assets/images",
         to: "./images"
+      },
+      {
+        from: "./assets/config",
+        to: "./config"
       }
     ]),
     new HtmlWebpackPlugin({ template: "./index.html" }),

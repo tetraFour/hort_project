@@ -27,60 +27,14 @@
         <div class="container">
           <h2>For Startups</h2>
           <ul class="projects-list">
-            <li>
-              <a href="">
-                <img src="" alt="" />
-                <h4></h4>
-                <p></p>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <img src="" alt="" />
-                <h4></h4>
-                <p></p>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <img src="" alt="" />
-                <h4></h4>
-                <p></p>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <img src="" alt="" />
-                <h4></h4>
-                <p></p>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <img src="" alt="" />
-                <h4></h4>
-                <p></p>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <img src="" alt="" />
-                <h4></h4>
-                <p></p>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <img src="" alt="" />
-                <h4></h4>
-                <p></p>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <img src="" alt="" />
-                <h4></h4>
-                <p></p>
+            <li
+              v-for="project in startupProjects.projects"
+              v-if="startupProjects && startupProjects.projects"
+            >
+              <a href="#">
+                <img :src="project.imgSrc" alt="" />
+                <h4>{{project.name}}</h4>
+                <p>in {{project.kit}}</p>
               </a>
             </li>
           </ul>
@@ -90,60 +44,11 @@
         <div class="container">
           <h2>For Designers</h2>
           <ul>
-            <li>
-              <a href="">
-                <img src="" alt="" />
-                <h4></h4>
-                <p></p>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <img src="" alt="" />
-                <h4></h4>
-                <p></p>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <img src="" alt="" />
-                <h4></h4>
-                <p></p>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <img src="" alt="" />
-                <h4></h4>
-                <p></p>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <img src="" alt="" />
-                <h4></h4>
-                <p></p>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <img src="" alt="" />
-                <h4></h4>
-                <p></p>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <img src="" alt="" />
-                <h4></h4>
-                <p></p>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <img src="" alt="" />
-                <h4></h4>
-                <p></p>
+            <li v-for="project in designersProjects.projects">
+              <a href="#">
+                <img :src="project.imgSrc" alt="" />
+                <h4>{{project.name}}</h4>
+                <p>in {{project.kit}}</p>
               </a>
             </li>
           </ul>
@@ -153,60 +58,14 @@
         <div class="container">
           <h2>For Developers</h2>
           <ul>
-            <li>
-              <a href="">
-                <img src="" alt="" />
-                <h4></h4>
-                <p></p>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <img src="" alt="" />
-                <h4></h4>
-                <p></p>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <img src="" alt="" />
-                <h4></h4>
-                <p></p>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <img src="" alt="" />
-                <h4></h4>
-                <p></p>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <img src="" alt="" />
-                <h4></h4>
-                <p></p>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <img src="" alt="" />
-                <h4></h4>
-                <p></p>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <img src="" alt="" />
-                <h4></h4>
-                <p></p>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <img src="" alt="" />
-                <h4></h4>
-                <p></p>
+            <li
+              v-for="project in developersProjects.projects"
+              v-if="developersProjects && developersProjects.projects"
+            >
+              <a href="#">
+                <img :src="project.imgSrc" alt="" />
+                <h4>{{project.name}}</h4>
+                <p>in {{project.kit}}</p>
               </a>
             </li>
           </ul>
@@ -215,14 +74,14 @@
       <footer>
         <nav class="container">
           <ul>
-            <li><a class="logo" href="#"></a></li>
+            <li class="logo"><a href="#"></a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">For Startups</a></li>
             <li><a href="#">For Designers</a></li>
             <li><a href="#">For Developers</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li>
-              <span class="copyright"
+            <li class="contact-us"><a href="#">Contact Us</a></li>
+            <li class="copyright">
+              <span
                 >Copyrights &copy; 2019. Cohort - A Project by IndiaNIC Infotech
                 Ltd.</span
               >

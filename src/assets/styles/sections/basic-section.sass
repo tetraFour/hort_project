@@ -1,0 +1,37 @@
+.section-with-projects
+    margin-bottom: $base-indent * 2
+    h2
+        margin-bottom: $base-indent - 8px
+
+    ul
+        display: flex
+        flex-wrap: wrap
+
+        li
+            margin-right: $base-indent - 10px
+            margin-bottom: $base-indent + 10px
+
+            &:nth-child(4n)
+                margin-right: 0
+
+    a
+        display: block
+
+    img
+        display: block
+        width: 280px
+        height: 225px
+        background-color: #fff
+        margin-bottom: $base-indent / 3
+        border-radius: 7px
+
+    h4
+        font-size: 16px
+
+    p
+        +ffam("inter-ui-regular")
+
+        color: $paragraph-color
+
+        span
+            +ffam("inter-ui-bold")
