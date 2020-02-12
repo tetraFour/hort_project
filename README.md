@@ -4,8 +4,6 @@
 
 Vue, webpack, sass, babel
 
-start:
-
 - npm install
 - npm run server //dev-server
   build:
