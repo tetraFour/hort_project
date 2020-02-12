@@ -1,13 +1,16 @@
 footer
     margin-bottom: $base-indent * 3
+
     ul
         display: flex
         align-items: center
 
     li
         margin-right: $base-indent + 10px
+
         &:last-child
             margin-right: 0
+
         a
             +ffam("inter-ui-regular")
 
@@ -32,3 +35,24 @@ footer
 
                 font-size: 12px
                 color: $paragraph-color
+
+    @media screen and (max-width: $device-width-large)
+        li
+            margin-right: $base-indent - 10px
+
+            &.logo
+                margin-right: $base-indent - 5px
+
+            &.contact-us
+                margin-right: $base-indent + 10px
+
+    @media screen and (max-width: $device-width-medium)
+        margin-bottom: $base-indent
+
+        ul
+            flex-direction: column
+            align-items: flex-start
+
+            li
+                margin-bottom: $base-indent
+                margin-right: 0

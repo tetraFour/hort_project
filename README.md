@@ -1,10 +1,12 @@
 # hort_project
+
 "Hort" landing page
 
 Vue, webpack, sass, babel
 
 start:
-  - npm install
-  - npm run server
-build:
-  - npm run build
+
+- npm install
+- npm run server //dev-server
+  build:
+- npm run build

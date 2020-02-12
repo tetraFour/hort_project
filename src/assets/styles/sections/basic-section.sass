@@ -1,5 +1,6 @@
 .section-with-projects
     margin-bottom: $base-indent * 2
+
     h2
         margin-bottom: $base-indent - 8px
 
@@ -7,12 +8,12 @@
         display: flex
         flex-wrap: wrap
 
-        li
-            margin-right: $base-indent - 10px
-            margin-bottom: $base-indent + 10px
+    li
+        margin-right: $base-indent - 10px
+        margin-bottom: $base-indent + 10px
 
-            &:nth-child(4n)
-                margin-right: 0
+        &:nth-child(4n)
+            margin-right: 0
 
     a
         display: block
@@ -35,3 +36,53 @@
 
         span
             +ffam("inter-ui-bold")
+
+    @media screen and (max-width: $device-width-full)
+        ul
+            li
+                margin-right: $base-indent * 5 / 3
+
+                &:nth-child(3n)
+                    margin-right: 0
+
+                &:nth-child(4n)
+                    margin-right: $base-indent * 5 / 3
+
+    @media screen and (max-width: $device-width-large)
+        ul
+            justify-content: center
+
+            li
+                &:nth-child(3n)
+                    margin-right: $base-indent * 5 / 3
+
+                &:nth-child(2n)
+                    margin-right: 0
+
+    @media screen and (max-width: $device-width-medium)
+        ul
+            li
+                margin-right: 0
+                margin-bottom: $base-indent
+
+                &:nth-child(3n), &:nth-child(4n)
+                    margin-right: 0
+
+                &:nth-child(even)
+                    margin-right: 0
+
+                &:nth-child(odd)
+                    margin-right: $base-indent - 10px
+
+        img
+            width: 260px
+            height: 205px
+
+    @media screen and (max-width: $device-width-small)
+        ul
+            flex-direction: column
+            align-items: center
+
+            li
+                &:nth-child(odd)
+                    margin-right: 0
